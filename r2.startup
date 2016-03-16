@@ -1,0 +1,2 @@
+ifconfig eth0 203.117.114.2/30
+ifconfig eth1 203.117.120.10/30
