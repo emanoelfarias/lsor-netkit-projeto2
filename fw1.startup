@@ -1,2 +1,6 @@
-ifconfig eth0 10.1.1.10/24
+ifconfig eth0 10.1.2.10/24
 ifconfig eth1 192.168.10.1/30
+
+#ROTAS ESTATICAS
+
+route add default gw 192.168.10.2 dev eth1

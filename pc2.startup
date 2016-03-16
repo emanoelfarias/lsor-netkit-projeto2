@@ -1,1 +1,5 @@
 ifconfig eth0 10.1.1.40/24
+
+#ROTAS ESTATICAS
+	
+route add default gw 10.1.1.30 dev eth0
